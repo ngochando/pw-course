@@ -1,0 +1,13 @@
+Giải thích lệnh
+
+1. git init: 
+    - git initlization --> dùng để khởi tại 1 repo tại path mà bạn đang đứng ở local computer
+
+2. git add <file_name>: 
+    - Add 1 file với file-name cụ thể từ Working Directory state sang Staging state (vùng đệm chờ) 
+
+3. git add .
+    - Add tất cả các file đang có ở Working Directory state sang Staging state (vùng đệm chờ)
+
+4. git commit -m "message"
+    - (snapshot) lưu lại trạng thái các thay đổi đã được thêm vào Staging -- ghi nhận lịch sử các phiên bản thay đổi
