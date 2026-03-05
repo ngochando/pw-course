@@ -6,11 +6,11 @@ c. Khai báo một biến isEven với giá trị là sai.
 d. In ra kiểu dữ liệu của các biến đã khai báo, sử dụng typeof
 */
 
-const a = 12;
+const number = 12;
 let name = "my number";
 let isEven = false;
 
-console.log(typeof a);
+console.log(typeof number);
 console.log(typeof name);
 console.log(typeof isEven);
 

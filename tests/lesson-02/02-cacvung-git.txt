@@ -9,8 +9,14 @@ lâu đấy ^^):
     e. Chạy lệnh: git commit -m”add file1”
     f. Chạy lệnh: git commit -m”add file”
 
+Giải thích từng bước chạy lệnh:
+Chạy lệnh git init --> khởi tạo 1 repo mới ở local
+Chạy lệnh: git commit -m”init project” --> sẽ báo lỗi vì chưa có file nào được add vào Staging
+Chạy lệnh: git add file1 --> file1 đã được add thành công vào vùng Staging
+git commit -m”add file1” --> file1 đã được commit thành công vào Repository đã tạo
+Chạy lênh: git commit -m”add file” --> sẽ báo lỗi vì không có file nào được add vào Staging, file2 và file3 vẫn ở trạng thái untracked trong Working Directory 
 
-Trả lời:
+Sau khi chạy tất cả các lệnh trên, trạng thái của các file sẽ là như sau:
 - Working Directory state: file2, file3
 - Staging state: none
 - Repository state: file1

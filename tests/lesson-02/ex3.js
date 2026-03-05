@@ -5,14 +5,17 @@ a. a && b && c
 b. a && b || c
 */
 
-let a = true;
-let b = false;
-let c = true;
-
 /*
 Đáp án: 
 a) a && b && c - Output: false (a && b = false -> false && c -> fasle)
 b) a && b || c - Output: true (a && b = false -> false || c -> true)
 */
+
+let a = true;
+let b = false;
+let c = true;
+
+console.log(a && b && c)
+console.log(a && b || c)
 
 
