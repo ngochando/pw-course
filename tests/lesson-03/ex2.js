@@ -14,10 +14,9 @@ a. Khai báo chiều cao của bạn (cm)
 b. In ra cân nặng lý tưởng, cân nặng tối đa, cân nặng tối thiểu trên cùng một dòng.
 */
 
-let height = 162;
+const height = 101;
 
 const remainder = height % 100;
-console.log ("So le trong chieu cao: " + remainder);
 
 let idealWeight = remainder * 9 /10;
 

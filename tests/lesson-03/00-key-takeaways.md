@@ -18,11 +18,11 @@ Cách đưa nhưng file đã add vào **Staging state** về lại **Working Dir
 
 Cách un-stage 1 file cụ thể:
 
-```git restore -stage <file_name>```
+```git restore --stage <file_name>```
 
 Cách un-stage all files:
 
-```git restore -stage .```
+```git restore --stage .```
 
 #### GIT - Un-Commit
 
@@ -176,7 +176,7 @@ for (let i = 0 ; i < 10 ; i++){
 ```
 - Lặp lùi
 ```
-for (let i = 0 ; i < 1 ; i--){
+for (let i = 10 ; i > 1 ; i--){
     console.log(i)
 }
 ```
