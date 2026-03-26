@@ -10,7 +10,7 @@ DOM - Visualize -> Mô tả trên một cây
 - Node hiện tại -> màu xanh lá
 - Node cần chú ý -> màu cam
 
-![alt text](<Screenshot 2026-03-26 at 02.08.30.png>)
+![alt text](<images/Screenshot 2026-03-26 at 02.08.30.png>)
 
 **Relation:**
 
@@ -22,15 +22,15 @@ DOM - Visualize -> Mô tả trên một cây
 
 - ```ancestor```: tổ tiên
 
-![alt text](image.png) 
+![alt text](<images/Screenshot 2026-03-26 at 02.12.20.png>) 
 
 - ```descendant```: hậu duệ -> là node con, cháu, chắt, ...
 
-![alt text](image-1.png)
+![alt text](<images/Screenshot 2026-03-26 at 02.14.50.png>)
 
 - ```sibling```: anh em -> là những phần tử cùng cấp và cùng cha
 
-![alt text](image-2.png)
+![alt text](<images/Screenshot 2026-03-26 at 02.16.29.png>)
 
 - ```following```: theo sau -> gồm tất cả các node ở phía bên tay phải của node hiện tại
     - Không lấy những thằng con của node hiện tại
@@ -124,10 +124,8 @@ contains(text(), "Giờ địa phương")
 
 ## Kiến thức XPath Function thêm
 
-![alt text](image-3.png)
+![alt text](<images/Screenshot 2026-03-26 at 03.09.40.png>)
 
-![alt text](image-4.png)
+![alt text](<images/Screenshot 2026-03-26 at 03.12.08.png>)
 
-![alt text](image-5.png)
-
-![alt text](image-6.png)
+![alt text](<images/Screenshot 2026-03-26 at 03.12.27.png>)

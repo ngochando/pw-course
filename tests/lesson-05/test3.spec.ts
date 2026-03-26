@@ -31,7 +31,7 @@ test("test 3", async ({ page }) => {
             if (i % 2 !== 0) {
                 page.once('dialog', async dialog => { await dialog.accept(); })
 
-                await page.locator(`//li/div/button[@id="todo-${i}-delete"]`).click();
+                await page.locator(`//button[@id="todo-${i}-delete"]`).click();
             }
         }
     });

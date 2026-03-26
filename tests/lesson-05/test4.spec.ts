@@ -7,7 +7,6 @@ b. Thực hiện search với keyword “một hoặc nhiều”
 */
 
 import { test, expect } from '@playwright/test';
-import { text } from 'node:stream/consumers';
 
 test("test 4", async ({ page }) => {
     await test.step("Navigate to https://material.playwrightvn.com/ and click “Bài học 4: Personal notes”", async () => {
